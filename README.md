@@ -5,7 +5,7 @@ correctly, it redirects it to a dashboard. There user can select csv file and pl
 works only for data.csv which is also uploaded. You need to install python,Tkinter,sqlite,numpy,matplotlib libraries
 for the code to work properly.
 
-#Files:
+Files:
 gui.py:       Is the main login page of the application. It prompts with username, password and submit button
 database.py : Creates a database file and stores admin as username and password.If the user enters the correct uername
               and pasword, it redirects the application to dashboard which is stored in method.py
