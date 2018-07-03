@@ -24,7 +24,7 @@ class conn:
 		
 		#create cursor to fetch records and create connection
 		global connection, cursor
-		connection = sqlite3.connect("pythontut.db")
+		connection = sqlite3.connect("database.db")
 		cursor = connection.cursor()
 		auth = cursor.execute("SELECT `mem_id` FROM `login` WHERE `username` = ? AND `password` = ?",(username,password))
 		
